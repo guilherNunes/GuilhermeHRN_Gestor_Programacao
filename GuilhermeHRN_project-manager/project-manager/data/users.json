@@ -1,0 +1,9 @@
+[
+  {
+    "id": "admin-id",
+    "username": "admin",
+    "password": "admin",
+    "role": "ADMIN",
+    "email": "admin@gestor.com"
+  }
+]

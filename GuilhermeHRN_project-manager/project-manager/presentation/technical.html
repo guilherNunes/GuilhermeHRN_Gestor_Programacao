@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Space+Mono&family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <style>
+        html,body{height:100%;margin:0}
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background-color: #FFFFFF;
+            font-family: 'Space Mono', monospace;
+            color: #3949AB;
+            position: relative;
+            overflow: hidden;
+            box-sizing: border-box;
+        }
+        .grid-layer {
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            pointer-events: none;
+            z-index: 1;
+        }
+        .grid-col {
+            border-right: 1px solid rgba(41, 98, 255, 0.1);
+            height: 100%;
+        }
+        .content {
+            position: relative;
+            z-index: 2;
+            padding-top: 60px;
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+        h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 900;
+            font-size: 48px;
+            color: #1A237E;
+            text-transform: uppercase;
+            margin: 0 0 40px 0;
+            border-left: 8px solid #2962FF;
+            padding-left: 20px;
+        }
+        .tech-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        .tech-item {
+            border: 2px solid #2962FF;
+            padding-top: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+            min-height: 100px;
+            background: white;
+            display: flex;
+            flex-direction: column;
+        }
+        .tech-label {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 900;
+            font-size: 18px;
+            color: #1A237E;
+            margin-bottom: 8px;
+        }
+        .tech-value {
+            font-size: 16px;
+            color: #3949AB;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="grid-layer">
+            <div class="grid-col"></div><div class="grid-col"></div><div class="grid-col"></div><div class="grid-col"></div>
+            <div class="grid-col"></div><div class="grid-col"></div><div class="grid-col"></div><div class="grid-col"></div>
+            <div class="grid-col"></div><div class="grid-col"></div><div class="grid-col"></div><div class="grid-col"></div>
+        </div>
+        <div class="content">
+            <h2>Requisitos Técnicos</h2>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <span class="tech-label">LINGUAGEM & UI</span>
+                    <span class="tech-value">Java 17 com interface gráfica Swing nativa.</span>
+                </div>
+                <div class="tech-item">
+                    <span class="tech-label">ARQUITETURA</span>
+                    <span class="tech-value">Organização em pacotes: Model, Service, UI, Util.</span>
+                </div>
+                <div class="tech-item">
+                    <span class="tech-label">PERSISTÊNCIA</span>
+                    <span class="tech-value">Armazenamento local estruturado em arquivos JSON.</span>
+                </div>
+                <div class="tech-item">
+                    <span class="tech-label">VALIDAÇÃO</span>
+                    <span class="tech-value">Regex para e-mails, tipos numéricos e campos obrigatórios.</span>
+                </div>
+                <div class="tech-item">
+                    <span class="tech-label">ESTRUTURA UI</span>
+                    <span class="tech-value">Composta por 5 telas funcionais totalmente integradas.</span>
+                </div>
+                <div class="tech-item">
+                    <span class="tech-label">GERENCIAMENTO</span>
+                    <span class="tech-value">Maven para controle de dependências e build automatizado.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

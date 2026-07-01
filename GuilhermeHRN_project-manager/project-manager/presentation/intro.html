@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Space+Mono&family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <style>
+        html,body{height:100%;margin:0}
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background-color: #FFFFFF;
+            font-family: 'Space Mono', monospace;
+            color: #3949AB;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-sizing: border-box;
+        }
+        /* Structural Grid */
+        .grid-layer {
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            pointer-events: none;
+            z-index: 1;
+        }
+        .grid-col {
+            border-right: 1px solid rgba(41, 98, 255, 0.1);
+            height: 100%;
+        }
+        .content-box {
+            z-index: 2;
+            border: 2px solid #2962FF;
+            padding: 24px;
+            background: white;
+            text-align: center;
+            max-width: 900px;
+            box-sizing: border-box;
+        }
+        h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 900;
+            font-size: 64px;
+            color: #1A237E;
+            text-transform: uppercase;
+            margin: 0 0 12px 0;
+            line-height: 1.1;
+        }
+        .subtitle {
+            font-family: 'Roboto', sans-serif;
+            font-size: 32px;
+            color: #2962FF;
+            font-weight: 400;
+            margin-top:8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="grid-layer">
+            <div class="grid-col"></div><div class="grid-col"></div><div class="grid-col"></div><div class="grid-col"></div>
+            <div class="grid-col"></div><div class="grid-col"></div><div class="grid-col"></div><div class="grid-col"></div>
+            <div class="grid-col"></div><div class="grid-col"></div><div class="grid-col"></div><div class="grid-col"></div>
+        </div>
+        <div class="content-box">
+            <h1>Gestor de Projetos de Programação</h1>
+            <div class="subtitle">Solução Desktop para Organização de Software</div>
+        </div>
+    </div>
+</body>
+</html>

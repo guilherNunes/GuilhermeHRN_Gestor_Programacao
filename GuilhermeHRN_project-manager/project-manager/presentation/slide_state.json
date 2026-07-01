@@ -1,0 +1,89 @@
+{
+  "project_info": {
+    "title": "Gestor de Projetos de Programação",
+    "created": 1781656200.957,
+    "last_updated": 1781656300.066,
+    "total_slides": 7
+  },
+  "slides": [
+    {
+      "id": "intro",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "objective",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "structure",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "features",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "technical",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "academic",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "conclusion",
+      "state": "edited",
+      "pageNum": 7
+    }
+  ],
+  "outline": [
+    {
+      "id": "intro",
+      "title": "Gestor de Projetos de Programação",
+      "summary": "Apresentação da solução desktop para organização de software.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "objective",
+      "title": "Objetivo do Sistema",
+      "summary": "Foco no planejamento, monitoramento e produtividade de projetos de software.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "structure",
+      "title": "Estrutura do Sistema",
+      "summary": "Os 4 pilares: Usuários, Projetos, Tarefas e Auditoria.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "features",
+      "title": "Funcionalidades Principais",
+      "summary": "CRUD completo, Dashboard inteligente e Sugestão de Prazo.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "technical",
+      "title": "Requisitos Técnicos Atendidos",
+      "summary": "Java Swing, Arquitetura em pacotes e Persistência JSON.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "academic",
+      "title": "Diferenciais Acadêmicos",
+      "summary": "Código comentado, robustez e portabilidade.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "conclusion",
+      "title": "Conclusão",
+      "summary": "União de simplicidade e robustez para o gerenciamento profissional.",
+      "image_plan": "Use a suitable image if needed"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "3bd7e031-299f-482d-89b6-72d4ea80885f",
+    "userId": "admin",
+    "entityId": "22a12eef-d224-4fa5-9fde-286d1710fd84",
+    "action": "CRIACAO",
+    "details": "Projeto criado: Sistema ERP",
+    "timestamp": "2026-06-17T00:05:56.042687007"
+  },
+  {
+    "id": "826a8038-44b0-44e9-9bae-5d6579cf9ea3",
+    "userId": "admin",
+    "entityId": "534ee058-fb84-4123-9651-2660c814f65e",
+    "action": "CRIACAO",
+    "details": "Projeto criado: App Delivery",
+    "timestamp": "2026-06-17T00:05:56.045842986"
+  },
+  {
+    "id": "70e12504-1ca3-45e2-a00a-70fd1919b95e",
+    "userId": "admin",
+    "entityId": "199cb1ba-fa48-4d07-9a14-379d54ee8c3b",
+    "action": "CRIACAO",
+    "details": "Projeto criado: Site Portfólio",
+    "timestamp": "2026-06-17T00:05:56.047898624"
+  },
+  {
+    "id": "339c99cc-d348-46c4-90f3-ac9c506103af",
+    "userId": "admin",
+    "entityId": "6d606e3b-e50a-4b7b-b836-b074c50225c6",
+    "action": "CRIACAO",
+    "details": "Tarefa criada: Modelagem Banco",
+    "timestamp": "2026-06-17T00:05:56.057594731"
+  },
+  {
+    "id": "80cc3396-c6bb-402e-8321-4fc6eeeef732",
+    "userId": "admin",
+    "entityId": "97c71d36-55e9-4beb-9af8-e7dfd8467198",
+    "action": "CRIACAO",
+    "details": "Tarefa criada: Login Social",
+    "timestamp": "2026-06-17T00:05:56.058995742"
+  },
+  {
+    "id": "9a352325-c412-4744-a2b6-78087d930cde",
+    "userId": "admin",
+    "entityId": "d8654486-a921-4399-8e7d-a3077d2d3e27",
+    "action": "CRIACAO",
+    "details": "Tarefa criada: Ajuste CSS",
+    "timestamp": "2026-06-17T00:05:56.060629408"
+  },
+  {
+    "id": "55ee755d-f703-41ba-abe3-4fe556d1e56c",
+    "userId": "admin",
+    "entityId": "96e2971a-7a65-4ff1-9dc3-c37e3b1d1ab0",
+    "action": "CRIACAO",
+    "details": "Projeto criado: Sistema ERP",
+    "timestamp": "2026-06-17T00:26:26.664669258"
+  },
+  {
+    "id": "fe4a0711-2279-4c50-9528-94d6b2de734c",
+    "userId": "admin",
+    "entityId": "dfda25ca-d21f-440f-9ef3-4a2d573eda7b",
+    "action": "CRIACAO",
+    "details": "Projeto criado: App Delivery",
+    "timestamp": "2026-06-17T00:26:26.667994052"
+  },
+  {
+    "id": "b0dbb578-c4d7-433c-9948-25a856d48bb6",
+    "userId": "admin",
+    "entityId": "5f148fac-6c7d-4d80-97d3-fc993f3925a4",
+    "action": "CRIACAO",
+    "details": "Projeto criado: Site Portfólio",
+    "timestamp": "2026-06-17T00:26:26.670165245"
+  },
+  {
+    "id": "40f56f30-3c32-48d9-9f9e-235af88437ac",
+    "userId": "admin",
+    "entityId": "b180cf5b-2a6b-4bba-ace3-0598b3f914bd",
+    "action": "CRIACAO",
+    "details": "Tarefa criada: Modelagem Banco",
+    "timestamp": "2026-06-17T00:26:26.677145612"
+  },
+  {
+    "id": "26c77bc9-94ea-4497-a121-786c201b79a5",
+    "userId": "admin",
+    "entityId": "8533ee62-343c-491f-ba0c-5867c524dd5e",
+    "action": "CRIACAO",
+    "details": "Tarefa criada: Login Social",
+    "timestamp": "2026-06-17T00:26:26.678849935"
+  },
+  {
+    "id": "b645f6b8-cb2e-476d-8065-948b9f05f1a7",
+    "userId": "admin",
+    "entityId": "cf26e284-0c54-4606-91e2-3c9e1b21eaa2",
+    "action": "CRIACAO",
+    "details": "Tarefa criada: Ajuste CSS",
+    "timestamp": "2026-06-17T00:26:26.680409205"
+  }
+]
